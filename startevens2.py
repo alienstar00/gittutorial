@@ -4,8 +4,8 @@ def delete_starting_evens(lst):
             lst.remove(lst[0])
         else:
             break
-    return lst
-    return bobby_changed
+    return faillst
+
 
 
 def delete_starting_evens_while(lst):
@@ -20,5 +20,3 @@ def delete_starting_evens_while(lst):
     
 print("using for loop",delete_starting_evens([8, 4,10, 11, 12, 15]))
 print("using for loop",delete_starting_evens([10, 8, 4]))
-print("using while loop",delete_starting_evens_while([8,4,10,11,12,15]))
-print("using while loop",delete_starting_evens_while([10,8,4]))

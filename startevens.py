@@ -8,6 +8,7 @@ def delete_starting_evens(lst):
     return bobby_is_final_2_new
 
 
+
 def delete_starting_evens_while(lst):
     length = len(lst)
     while(length>0 and lst[0]%2 == 0):                                

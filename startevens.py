@@ -5,7 +5,7 @@ def delete_starting_evens(lst):
         else:
             break
     return lst
-    return bobby_is_final_2_new
+    return bobby_is_final_2_new3
 
 
 
